@@ -1,0 +1,9 @@
+numpy
+pandas
+matplotlib 
+datetime
+plotly
+statsmodels
+sklearn
+fbprophet
+

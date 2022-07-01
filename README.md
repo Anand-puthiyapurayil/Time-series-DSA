@@ -9,8 +9,11 @@ The units are a count and there are 2,820 observations.
 
 
 MULTIVARIATE WIND SPEED
-
-The dataset contains 6574 instances of daily averaged responses from an array of 5 weather variables sensors embedded in a meteorological station. 
-Data were recorded from January 1961 to December 1978 (17 years). Ground Truth daily averaged precipitations, maximum and minimum temperatures, and grass minimum temperature were provided.
-
-Anomaly is detected as 580 data sets due to the high wind speed or high precipitation/rain, temperature variations.
+Seattle Weather Data
+Dataset containing a Weather conditions Based on samples such as precipitation , maximum and minimum temperature and wind .
+We are going to predict the weather condition :
+* drizzle
+* rain
+* sun
+* snow
+* fog

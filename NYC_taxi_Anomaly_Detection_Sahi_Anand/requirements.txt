@@ -1,9 +1,0 @@
-Nmpy
-Pandas
-matplotlib 
-datetime
-plotly
-holoviews
-bokeh
-sklearn
-Fbprophet

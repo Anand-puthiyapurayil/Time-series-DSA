@@ -21,7 +21,7 @@ Techniques Used  <br />
 -MAD (mean absolute deviation) of a data set is the average distance between each data value and the mean. Mean absolute deviation is a way to describe variation in a data set. Mean absolute deviation helps us get a sense of how "spread out" the values in a data set are. <br />
 -Naive approach using global mean and standard deviation <br />
 -VAR model extends the univariate autoregressive (AR) model by capturing the linear relations between multiple variables. For each input series, a regression is carried out. The original variables are regressed against their own lagged values and the lagged values of other variables. 
-
+![MAD_SENSOR](https://user-images.githubusercontent.com/91613839/179886656-e7e2874c-ea00-46bf-bf96-333703ff3a9b.png) 
 ```shell
 MAD prediction for sensor 0
    ![MAD_SENSOR](https://user-images.githubusercontent.com/91613839/179886656-e7e2874c-ea00-46bf-bf96-333703ff3a9b.png) 

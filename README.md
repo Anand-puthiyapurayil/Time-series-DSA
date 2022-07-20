@@ -22,6 +22,15 @@ Techniques Used  <br />
 -Naive approach using global mean and standard deviation <br />
 -VAR model extends the univariate autoregressive (AR) model by capturing the linear relations between multiple variables. For each input series, a regression is carried out. The original variables are regressed against their own lagged values and the lagged values of other variables. 
 
+```shell
+MAD prediction for sensor 0
+   ![MAD_SENSOR](https://user-images.githubusercontent.com/91613839/179886656-e7e2874c-ea00-46bf-bf96-333703ff3a9b.png) 
+ACTUAL PREDICTIONS WITH LABELS
+   ![actual_ANO](https://user-images.githubusercontent.com/91613839/179886690-53d222f6-59fb-4c5b-a711-244d1f643a7d.png)
+
+```
+
+
  # Getting started
 
 ## Setup up virtual environment

@@ -23,7 +23,7 @@ Techniques Used  <br />
 -VAR model extends the univariate autoregressive (AR) model by capturing the linear relations between multiple variables. For each input series, a regression is carried out. The original variables are regressed against their own lagged values and the lagged values of other variables. 
 
  |MODEL     |  MAD          | NAIve APPROACH|  VAR        |
- |          | ------------- | ------------- | --------    |
+ |          | :------------- | :-------------: | --------:    |
  |Sensor 00 | MAE: 1.006 
              f1_score: 0.07512618799190007 | Test1         | `NewYork`   |
  |Sensor 01 | | Test2         | `Toronto`   |

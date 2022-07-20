@@ -22,3 +22,5 @@ Techniques Used  <br />
 -Naive approach using global mean and standard deviation <br />
 -VAR model extends the univariate autoregressive (AR) model by capturing the linear relations between multiple variables. For each input series, a regression is carried out. The original variables are regressed against their own lagged values and the lagged values of other variables. 
 
+
+

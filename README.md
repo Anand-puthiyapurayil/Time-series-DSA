@@ -35,7 +35,7 @@ Techniques Used  <br />
     Accuracy: 0.9336601307189543
     F1 score Naive Approach: 0.9031977205064313
 ```
-#MAD 
+# MAD 
 
 ![MAD_SENSOR](https://user-images.githubusercontent.com/91613839/179886656-e7e2874c-ea00-46bf-bf96-333703ff3a9b.png) 
                                           MAD prediction for sensor 0

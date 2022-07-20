@@ -23,4 +23,68 @@ Techniques Used  <br />
 -VAR model extends the univariate autoregressive (AR) model by capturing the linear relations between multiple variables. For each input series, a regression is carried out. The original variables are regressed against their own lagged values and the lagged values of other variables. 
 
 
+# BEST MODEL
+## NAIVE APPROACH
+![download_naive_approach](https://user-images.githubusercontent.com/91613839/179887818-5ab3ee72-fb5e-4c81-aa4a-71dca486226b.png)
+```shell
+    number of anomalies1 :  5
+    number of anomalies2 :  14063
+    number of actual anomalies1 :  7
+    number of actual anomalies2 :  14477
+    MAE: 0.068
+    Accuracy: 0.9336601307189543
+    F1 score Naive Approach: 0.9031977205064313
+```
+# 2ND MAD 
 
+![MAD_SENSOR](https://user-images.githubusercontent.com/91613839/179886656-e7e2874c-ea00-46bf-bf96-333703ff3a9b.png) 
+                                          MAD prediction for sensor 0
+![actual_ANO](https://user-images.githubusercontent.com/91613839/179886690-53d222f6-59fb-4c5b-a711-244d1f643a7d.png)
+                                          Actual Predictions with labels
+```shell
+    MAE: 1.006
+     F1 score:0.07512618799190007
+   number of anomalies1_mad :  4
+   number of anomalies2_mad :  4279
+   Number of actual anomalies1_mad :  7
+   number of actual anomalies2_mad :  14477
+```
+
+
+ # Getting started
+
+## Setup up virtual environment
+
+1. Create a virtual with *Python 3.10*
+
+```shell
+    env use python3.10
+```
+
+## Useful commands
+
+- Run command in the virtual environment
+
+```shell
+$ run jupyter notebook 
+```
+
+- Add dependencies
+
+```shell
+$ install pyod library
+$ install 
+
+
+- Update dependencies
+
+```shell
+$  update
+```
+
+- Deactivate virtual environment
+
+```shell
+$ deactivate # or
+$ exit
+```

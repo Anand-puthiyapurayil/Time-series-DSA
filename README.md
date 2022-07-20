@@ -22,10 +22,40 @@ Techniques Used  <br />
 -Naive approach using global mean and standard deviation <br />
 -VAR model extends the univariate autoregressive (AR) model by capturing the linear relations between multiple variables. For each input series, a regression is carried out. The original variables are regressed against their own lagged values and the lagged values of other variables. 
 
- |MODEL     |  MAD          | NAIve APPROACH|  VAR        |
- |          | :------------- | :-------------: | --------:    |
- |Sensor 00 | MAE: 1.006 
-             f1_score: 0.07512618799190007 | Test1         | `NewYork`   |
- |Sensor 01 | | Test2         | `Toronto`   |
- |Sensor 02 |    |
- |Senso 03  |
+ # Getting started
+
+## Setup up virtual environment
+
+1. Create a virtual with *Python 3.10*
+
+```shell
+    env use python3.10
+```
+
+## Useful commands
+
+- Run command in the virtual environment
+
+```shell
+$ run jupyter notebook 
+```
+
+- Add dependencies
+
+```shell
+$ install pyod library
+$ install 
+
+
+- Update dependencies
+
+```shell
+$  update
+```
+
+- Deactivate virtual environment
+
+```shell
+$ deactivate # or
+$ exit
+```

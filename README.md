@@ -35,13 +35,20 @@ Techniques Used  <br />
     Accuracy: 0.9336601307189543
     F1 score Naive Approach: 0.9031977205064313
 ```
-# MAD 
+# 2ND MAD 
 
 ![MAD_SENSOR](https://user-images.githubusercontent.com/91613839/179886656-e7e2874c-ea00-46bf-bf96-333703ff3a9b.png) 
                                           MAD prediction for sensor 0
 ![actual_ANO](https://user-images.githubusercontent.com/91613839/179886690-53d222f6-59fb-4c5b-a711-244d1f643a7d.png)
                                           Actual Predictions with labels
-
+```shell
+    MAE: 1.006
+     F1 score:0.07512618799190007
+   number of anomalies1_mad :  4
+   number of anomalies2_mad :  4279
+   Number of actual anomalies1_mad :  7
+   number of actual anomalies2_mad :  14477
+```
 
 
  # Getting started
